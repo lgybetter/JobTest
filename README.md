@@ -10,3 +10,4 @@
 
 对于开发出的界面如下所示：
 
+![](https://github.com/lgybetter/JobTest/blob/master/image/photo1.PNG?raw=true)
