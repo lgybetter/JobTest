@@ -1,0 +1,65 @@
+* {
+  font-family: 'Microsoft Yahei';
+  font-weight: bold;
+}
+
+.grid-border-right {
+	border-right: solid .5px gray;
+}
+
+.grid-border-left {
+	border-left: solid .5px gray;
+}
+
+.grid-border-top {
+	border-top: solid .5px gray;
+}
+
+.grid-border-bottom {
+	border-bottom: solid .5px gray;
+}
+
+.grid-item {
+	height: 2rem;
+	align-items: center;
+}
+
+.radius-content-top {
+	border-top-left-radius:.5em;
+	border-top-right-radius:.5em;
+}
+
+.radius-content-bottom {
+	border-bottom-right-radius:.5em;
+	border-bottom-left-radius:.5em;
+}
+
+.font-color-white {
+	color: white;
+}
+
+.font-color-gray {
+	color: gray;
+}
+
+.list-item-deep-green {
+	background-color: #26a69a;
+}
+
+.list-item-orange {
+	background-color: #ff7043;
+}
+
+.list-item-green {
+	background-color: #2baf2b;
+}
+
+.list-item-sky-blue {
+	background-color: #26c6da;
+}
+
+.list-item-deep-blue {
+	background-color: #78909c;
+}
+
+

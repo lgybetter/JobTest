@@ -1,0 +1,183 @@
+<!doctype html>
+<html>
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+    <link rel="stylesheet" type="text/css" href="./css/my.css">
+    <link rel="stylesheet" type="text/css" href="./css/aui.2.0.css" />
+    <link rel="stylesheet" type="text/css" href="./css/aui-pull-refresh.css" />
+		<style type="text/css" media="screen">
+			.aui-bar {
+				position: fixed;
+			}
+			.aui-content-padded {
+				padding-top: 2rem;/*有顶部固定导航条时设置*/ padding-bottom: 2rem;/*有底部固定导航条时设置*/
+			}
+
+		</style>
+	</head>
+
+	<body>
+		<header class="aui-bar aui-bar-nav">
+			<div class="aui-col-xs-4">
+				<input type="text" disabled class="aui-input aui-text-center aui-font-size-14" id="count" value="全部分组">
+			</div>
+			<div class="aui-col-xs-4">
+				<input type="text" disabled class="aui-input aui-text-center aui-font-size-14" id="count" value="全部大棚">
+			</div>
+			<div class="aui-col-xs-4">
+				<a class="aui-btn aui-pull-right">
+		      <span class="aui-iconfont aui-icon-refresh"></span>
+		  	</a>
+			</div>
+		</header>
+		<section class="aui-refresh-content">
+			<div class="aui-content-padded">
+				<ul class="aui-list aui-form-list aui-font-size-14">
+		      <li class="aui-list-item radius-content-top aui-bg-success">
+		      	<div class="aui-list-item-inner font-color-white">
+		      		<div class="aui-col-xs-5">大棚一 (分组一)</div>
+		      		<div class="aui-col-xs-7">蔬菜1</div>
+		      	</div>
+		      </li>
+
+		      <li class="aui-list-item aui-bg-warning">
+		      	<div class="aui-list-item-inner font-color-white">
+		      			<div class="aui-col-xs-2">日照</div>
+			        	<div class="aui-col-xs-4 aui-text-center">48.5</div>
+			        	<div class="aui-col-xs-3">Klux</div>
+		        </div>
+		      </li>
+
+		      <li class="aui-list-item aui-bg-primary">
+		      	<div class="aui-list-item-inner font-color-white">
+		    			<div class="aui-col-xs-2">CO<span class="aui-font-size-12">2</span></div>
+		        	<div class="aui-col-xs-4 aui-text-center">10.2</div>
+		        	<div class="aui-col-xs-3">PPM</div>
+		        </div>
+		      </li>
+					<li class="aui-list-item">
+						<div class="aui-list-item-inner font-color-gray">
+							<div class="aui-col-xs-6">
+								空气1
+								<div class="aui-label aui-label-info">30.7</div>
+								<span class="aui-font-size-12">℃</span>
+								<div class="aui-label aui-label-info">75</div>
+								<span class="aui-font-size-12">%</span>
+							</div>
+							<div class="aui-col-xs-6">
+								空气2
+								<div class="aui-label aui-label-info">30.7</div>
+								<span class="aui-font-size-12">℃</span>
+								<div class="aui-label aui-label-info">75</div>
+								<span class="aui-font-size-12">%</span>
+							</div>
+						</div>
+					</li>
+					<li class="aui-list-item">
+						<div class="aui-list-item-inner font-color-gray">
+							<div class="aui-col-xs-6">
+								空气3
+								<div class="aui-label aui-label-info">30.7</div>
+								<span class="aui-font-size-12">℃</span>
+								<div class="aui-label aui-label-info">75</div>
+								<span class="aui-font-size-12">%</span>
+							</div>
+							<div class="aui-col-xs-6">
+								空气4
+								<div class="aui-label aui-label-info">30.7</div>
+								<span class="aui-font-size-12">℃</span>
+								<div class="aui-label aui-label-info">75</div>
+								<span class="aui-font-size-12">%</span>
+							</div>
+						</div>
+					</li>
+					<li class="aui-list-item aui-bg-info">
+						<div class="aui-list-item-inner font-color-white">
+							<div class="aui-col-xs-2">土壤1</div>
+		        	<div class="aui-col-xs-4"><div class="aui-label aui-label-success">30.7</div>℃</div>
+		        	<div class="aui-col-xs-4"><div class="aui-label aui-label-success">75</div>%</div>
+						</div>
+					</li>
+					<li class="aui-list-item aui-bg-info">
+						<div class="aui-list-item-inner font-color-white">
+							<div class="aui-col-xs-2">土壤2</div>
+		        	<div class="aui-col-xs-4"><div class="aui-label aui-label-success">30.7</div>℃</div>
+		        	<div class="aui-col-xs-4"><div class="aui-label aui-label-success">75</div>%</div>
+						</div>
+					</li>
+					<li class="aui-list-item">
+						<div class="aui-list-item-inner">
+							<div class="aui-col-xs-2">窗机</div>
+							<div class="aui-col-xs-10 aui-row-padded aui-row">
+								<label>1</label><div class="aui-label aui-label-warning">未知</div>
+								<label>2</label><div class="aui-label aui-label-warning">未知</div>
+								<label>3</label><div class="aui-label aui-label-danger">关闭</div>
+								<label>4</label><div class="aui-label aui-label-success">全开</div>
+							</div>
+						</div>
+					</li>
+					<li class="aui-list-item">
+						<div class="aui-list-item-inner">
+							<div class="aui-col-xs-2">卷帘</div>
+							<div class="aui-col-xs-10 aui-row-padded aui-row">
+								<label>1</label><div class="aui-label aui-label-warning">未知</div>
+								<label>2</label><div class="aui-label aui-label-warning">未知</div>
+							</div>
+						</div>
+					</li>
+					<li class="aui-list-item">
+						<div class="aui-list-item-inner">
+							<div class="aui-col-xs-2">风机</div>
+							<div class="aui-col-xs-10 aui-row-padded aui-row">
+								<label>1</label><div class="aui-label aui-label-warning">未知</div>
+								<label>2</label><div class="aui-label aui-label-warning">未知</div>
+							</div>
+						</div>
+					</li>
+					<li class="aui-list-item">
+						<div class="aui-list-item-inner">
+							<div class="aui-col-xs-2">滴灌</div>
+							<div class="aui-col-xs-10 aui-row-padded aui-row">
+								<label></label><div class="aui-label aui-label-warning">未知</div>
+							</div>
+						</div>
+					</li>
+		      <li class="aui-list-item radius-content-bottom aui-bg-indigo">
+		      	<div class="aui-list-item-inner font-color-white">
+		      		<div class="aui-col-xs-12 aui-text-center">操作</div>
+		      	</div>
+		      </li>
+		    </ul>
+			</div>
+		</section>
+		<footer class="aui-bar aui-bar-tab">
+		  <div class="aui-bar-tab-item aui-active" tapmode>
+		    <div class="aui-iconfont aui-font-size-14">全景</div>
+		  </div>
+		  <div class="aui-bar-tab-item" tapmode>
+		    <div class="aui-iconfont aui-font-size-14">大棚</div>
+		  </div>
+		  <div class="aui-bar-tab-item" tapmode>
+		    <div class="aui-iconfont aui-font-size-14">设置</div>
+		  </div>
+		</footer>
+	</body>
+	<script src="./js/api.js"></script>
+	<script src="./js/aui-pull-refresh.js"></script>
+	<script type="text/javascript">
+		var pullRefresh = new auiPullToRefresh({
+			container: document.querySelector('.aui-refresh-content'),
+			triggerDistance: 80
+		},function(ret){
+			if(ret.status=="success"){
+				setTimeout(function(){
+					/*数据设置部分*/
+
+					pullRefresh.cancelLoading(); //刷新成功后调用此方法隐藏
+				},1000)
+			}
+		})
+	</script>
+</html>
